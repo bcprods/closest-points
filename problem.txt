@@ -1,0 +1,16 @@
+Please fill in the TODO with code implementing the function. Use whatever language you’re comfortable with. Probably an hour or two should be plenty of time. Be ready to demonstrate and modify your solution.
+
+JavaScript code:
+
+// Returns the k points from the input which are closest to the origin {x: 0, y: 0}.
+// "points" is a list of points in the form {x: <number>, y: <number>}.
+// "k" is a positive integer.
+function closestPoints(points, k) {
+  // TODO
+}
+
+// Examples:
+// closestPoints([{x: 3, y: 5}, {x: 1, y: 1}, {x: 0, y: 1}], 2)
+// => [{x: 0, y: 1}, {x: 1, y: 1}]
+// closestPoints([{x: 3, y: 5}, {x: 3, y: -4}, {x: 1, y: 1}, {x: 0, y: 1}, {x: -1, y: -1}], 3)
+// => [{x: 0, y: 1}, {x: 1, y: 1}, {x: -1, y: -1}]
