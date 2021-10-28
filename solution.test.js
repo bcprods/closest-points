@@ -33,6 +33,7 @@ test('distance() - Returns -1 for undefined values', () => {
     assert.deepEqual(distance(inputPoint.x, inputPoint.y), -1);
 });
 
+
 test('closestPoints() - Successfully returns k closest points (1)', () => {
     const inputPoints = [{x: 3, y: 5}, {x: 1, y: 1}, {x: 0, y: 1}];
     const output = [{x: 0, y: 1}, {x: 1, y: 1}];

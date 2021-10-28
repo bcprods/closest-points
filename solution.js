@@ -1,9 +1,9 @@
 // Calculates distance to origin, given an x,y coordinate
 function distance(x, y) {
-    if (x !== undefined && y !== undefined) {
-        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+    if (x === undefined || y === undefined) {
+        return -1;
     }
-    return -1;
+    return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 } 
 
 // Returns the k points from the input which are closest to the origin {x: 0, y: 0}.
